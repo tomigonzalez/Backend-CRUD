@@ -2,31 +2,37 @@
   {
     "monto": "203",
     "descripcion": "compras",
-    "fecha": "2023-04-17T02:31:21.886Z",
+    "fecha": "2023-04-17",
     "categoria": "ropa"
   },
   {
     "monto": "",
     "descripcion": "",
-    "fecha": "2023-04-18T03:04:55.501Z",
+    "fecha": "2023-04-18",
     "categoria": ""
   },
   {
     "monto": "300",
     "descripcion": "servicios",
-    "fecha": "2023-02-07T02:32:21.437Z",
+    "fecha": "2023-02-07",
     "categoria": "luz"
   },
   {
     "monto": "300",
     "descripcion": "servicios",
-    "fecha": "2022-02-07T02:32:21.437Z",
+    "fecha": "2022-02-07",
     "categoria": "Luz"
   },
   {
     "monto": "",
     "descripcion": "",
-    "fecha": "2023-04-18T03:04:55.501Z",
+    "fecha": "2023-04-18",
+    "categoria": ""
+  },
+  {
+    "monto": "",
+    "descripcion": "",
+    "fecha": "2023-05-20",
     "categoria": ""
   }
 ]
