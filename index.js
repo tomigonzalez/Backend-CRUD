@@ -3,15 +3,10 @@ import fs from "fs";
 import { promptNewGasto } from "./gastosPrompts.js";
 import mysql from "mysql";
 
-const connection = mysql.createConnection({
-  host: "aws.connect.psdb.cloud",
-  user: "b2z1rbznk0t958gylqch",
-  password: "pscale_pw_PvvYGpFpiAkFwLX3tyZCBA3TS4OecoVO7lpjTZQvCEB",
-  database: "2317",
-  ssl: {
-    rejectUnauthorized: true,
-  },
-});
+const DATABASE_URL =
+  'mysql://np0cwupzw64688krzuqp:pscale_pw_y6DTjNi3F6Bq0wE0QLn8KOpPaciCZqUkRTWc64PxlQg@aws.connect.psdb.cloud/2317?ssl={"rejectUnauthorized":true}';
+
+const connection = mysql.createConnection(DATABASE_URL);
 
 connection.connect((error) => {
   if (error) {
